@@ -1,0 +1,13 @@
+{
+  "name": "renovate-post-upgrade-constraints",
+  "version": "0.0.1",
+  "description": "",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "post-upgrade": "yarn add --dev @babel/core@^7.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
