@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "allowedPostUpgradeCommands": ["^yarn post-upgrade$"],
+  "postUpgradeTasks": {
+    "commands": ["yarn post-upgrade"],
+    "fileFilters": ["yarn.lock", "package.json"],
+    "executionMode": "update"
+  }
+}
