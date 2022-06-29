@@ -8,6 +8,8 @@
   "scripts": {
     "post-upgrade": "yarn add --dev @babel/core@^7.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "rimraf": "^1.0.9"
+  },
   "devDependencies": {}
 }
